@@ -1,13 +1,12 @@
 package com.loc.newsapp
 
 import android.util.Log
-import androidx.compose.runtime.State
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.loc.newsapp.domain.usecases.AppEntryUseCases
+import com.loc.newsapp.domain.usecases.app_entry.AppEntryUseCases
 import com.loc.newsapp.presentation.nvgraph.Route
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
